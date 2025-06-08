@@ -43,11 +43,11 @@ def load_object(path):
 
 # --- MEMUAT SEMUA ARTEFAK ---
 # Gunakan nama file final _v2 yang sudah kita pastikan benar
-LOG_REG_MODEL_PATH = 'artifacts/log_reg_model_final_v2.pkl'
-SCALER_PATH = 'artifacts/scaler_lr_final_v2.pkl'
-X_COLUMNS_PATH = 'artifacts/X_reg_columns_final_v2.pkl'
-CLUSTERED_DATA_PATH = 'artifacts/df_clustered_final_k4.csv' # Pastikan nama ini sesuai
-CAT_OPTIONS_PATH = 'artifacts/categorical_options_final_v2.pkl'
+LOG_REG_MODEL_PATH = 'log_reg_model_final_v2.pkl'
+SCALER_PATH = 'scaler_lr_final_v2.pkl'
+X_COLUMNS_PATH = 'X_reg_columns_final_v2.pkl'
+CLUSTERED_DATA_PATH = 'df_clustered_final_k4.csv' # Pastikan nama ini sesuai
+CAT_OPTIONS_PATH = 'categorical_options_final_v2.pkl'
 
 log_reg_model = load_model(LOG_REG_MODEL_PATH)
 scaler = load_model(SCALER_PATH)
